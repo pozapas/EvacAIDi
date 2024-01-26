@@ -37,7 +37,7 @@ streamlit run app.py
 - [ ] Pedestrian behavior models in simulations.
 
 ## Contributing
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page]([link-to-issues-page](https://github.com/pozapas/EvacAIDi/issues)) for open issues or open a new issue.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/pozapas/EvacAIDi/issues) for open issues or open a new issue.
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
