@@ -15,7 +15,7 @@ import openai
 
 # Set the API key from the .env file
 #openai.api_key = os.getenv('OPENAI_API_KEY')
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["openai_secret_key"]
 
 try:
     os.mkdir("temp")
