@@ -183,7 +183,7 @@ def main():
         Real-world distances for the edges were calculated using benchmarks from Google Earth combined with image processing. Node capacities were estimated based on established formulas, ensuring the model reflects real-world conditions within the stadium.
 
         #### 3. **Evacuation Time Computation:**
-        The evacuation times are based on [A comparative study of evacuation strategies for people with disabilities in high-rise building evacuation](https://doi.org/10.1016/j.eswa.2012.07.017), providing data on varied walking speeds across different individual types and environments, including stairs.
+        The evacuation times are based on [A comparative study of evacuation strategies for people with disabilities in high-rise building evacuation](https://doi.org/10.1016/j.eswa.2012.07.017). This study provides data on varied walking speeds across different individual types and environments, including stairs.
 
         #### 4. **Customized Dijkstra Algorithm for Pathfinding:**
         A stadium-specific version of the Dijkstra algorithm was developed to determine the shortest evacuation paths, taking into account the unique structural aspects of the stadium.
@@ -224,7 +224,7 @@ def main():
     seat_nodes = node_df[node_df['label'] == 'Seat']['Node ID'].tolist()  # Filter nodes labeled as seats
     seat_node_options = [node.replace('N', '') for node in seat_nodes]  # Remove 'N' from the node names
 
-    start_node = st.selectbox("Choose your seating area (node):", seat_node_options, key="seat_selection")
+    start_node = st.selectbox("Choose seating area (node):", seat_node_options, key="seat_selection")
 
 
     pedestrian_types = ['Non-disabled', 'Visually impaired', 'Hearing impaired', 'Low stamina']
