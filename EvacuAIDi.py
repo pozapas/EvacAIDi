@@ -8,13 +8,14 @@ import time
 import glob
 import os
 import openai
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 
-load_dotenv()
+#load_dotenv()
 
 # Set the API key from the .env file
-openai.api_key = os.getenv('OPENAI_API_KEY')
+#openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 try:
     os.mkdir("temp")
