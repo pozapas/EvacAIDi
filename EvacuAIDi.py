@@ -154,7 +154,7 @@ def generate_description_with_gpt(full_path, full_distance, exit_node, pedestria
           f"The total distance to Exit {exit_node[-1]} is {full_distance} feet, "
           f"with an estimated evacuation time of approximately {evacuation_time_minutes} minutes. "
           f"Present the instructions in a flowing paragraph format without bullet points or numbers."
-          f"it should be short, concise and just to the point in the emergency evacuation condition.")
+          f"It should be short, concise and just to the point in the emergency evacuation condition. Also, don't say anything about directions like go left, right and etc.")
 
     response = openai.Completion.create(
     model="gpt-3.5-turbo-instruct",
