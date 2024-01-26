@@ -183,7 +183,7 @@ def main():
         Real-world distances for the edges were calculated using benchmarks from Google Earth combined with image processing. Node capacities were estimated based on established formulas, ensuring the model reflects real-world conditions within the stadium.
 
         #### 3. **Evacuation Time Computation:**
-        The evacuation times are based on a study from [A comparative study of evacuation strategies for people with disabilities in high-rise building evacuation](https://doi.org/10.1016/j.eswa.2012.07.017), providing data on varied walking speeds across different individual types and environments, including stairs.
+        The evacuation times are based on [A comparative study of evacuation strategies for people with disabilities in high-rise building evacuation](https://doi.org/10.1016/j.eswa.2012.07.017), providing data on varied walking speeds across different individual types and environments, including stairs.
 
         #### 4. **Customized Dijkstra Algorithm for Pathfinding:**
         A stadium-specific version of the Dijkstra algorithm was developed to determine the shortest evacuation paths, taking into account the unique structural aspects of the stadium.
