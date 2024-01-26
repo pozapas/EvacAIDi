@@ -1,4 +1,4 @@
-# Stadium Evacuation Path Finder - Streamlit App
+# Stadium Evacuation Path Finder
 
 ## Overview
 This repository contains a Streamlit application designed for efficient evacuation planning in stadiums. It leverages advanced algorithms, image processing, and AI to provide personalized evacuation routes based on user location and specific requirements.
@@ -20,7 +20,7 @@ This repository contains a Streamlit application designed for efficient evacuati
 
 ## How to Run
 1. Clone the repository:
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/pozapas/EvacAIDi.git
 
 2. Install dependencies:
 pip install -r requirements.txt
@@ -37,7 +37,7 @@ streamlit run app.py
 - [ ] Pedestrian behavior models in simulations.
 
 ## Contributing
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](link-to-issues-page) for open issues or open a new issue.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page]([link-to-issues-page](https://github.com/pozapas/EvacAIDi/issues)) for open issues or open a new issue.
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
